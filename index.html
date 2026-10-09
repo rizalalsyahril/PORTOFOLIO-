@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIZAL.DEV - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="bg-grid"></div>
+
+    
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">RIZAL.DEV</a>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+   
+    <section id="home" class="section hero">
+        <div class="container hero-layout">
+            <div class="hero-content">
+                <div class="badge-work">
+                    <span class="dot"></span> AVAILABLE FOR WORK
+                </div>
+                
+                <h1 class="hero-title">Backend<br>Developer</h1>
+                <p class="hero-role">Informatics Student</p>
+                
+                <p class="hero-desc">
+                    Menciptakan sistem backend modern dengan arsitektur terstruktur, aman, dan efisien. Berfokus pada pengelolaan basis data relasional serta logika pemrograman digital yang optimal.
+                </p>
+                
+                <div class="tech-stack">
+                    <span>Java</span>
+                    <span>MySQL</span>
+                    <span>Linux</span>
+                </div>
+
+                <div class="hero-footer">
+                    <p>↓ Explore my work below</p>
+                    <p>💼 Open to full-time & freelance opportunities</p>
+                </div>
+            </div>
+
+            
+            <div class="hero-idcard">
+                <div class="lanyard-system">
+                    <div class="lanyard-strap"><span>ID CARD</span></div>
+                    <div class="lanyard-clip"></div>
+                    <div class="id-card">
+                        <div class="id-hole"></div>
+                        <div class="id-photo">
+                            <img class="profile-photo" src="WhatsApp Image 2026-10-08 at 22.09.41.jpeg" id="id-card-photo" alt="Foto profil Rizal">
+                        </div>
+                        <h3 class="id-name">Rizal Al Syahril</h3>
+                        <p class="id-nim">Malang, Indonesia</p>
+                        <p class="id-pos">BACKEND DEVELOPER</p>
+                        <div class="id-barcode">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-tag">ABOUT ME</div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="about-name">Rizal<br>Al Syahril</h2>
+                    <p class="about-desc">
+                        Mahasiswa Teknik Informatika Universitas Muhammadiyah Malang dengan passion di bidang backend development dan pengelolaan basis data. Berfokus pada pembuatan logic yang bersih, responsif, dan visual yang kuat untuk menghadirkan pengalaman digital yang optimal.
+                    </p>
+                    <div class="about-quote">
+                        "Turning logic into clean, modern, and meaningful digital experiences."
+                    </div>
+                    <div class="about-actions">
+                        <a href="#contact" class="btn btn-primary" style="text-decoration:none;">⬇ Hubungi Saya</a>
+                        <a href="#portfolio" class="btn btn-secondary" style="text-decoration:none;">View Projects</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-circle">
+                        <img class="profile-photo" src="WhatsApp Image 2026-10-08 at 22.09.41.jpeg" id="about-profile-photo" alt="Foto profil Rizal">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <div class="portfolio-header">
+                <h2>Portfolio Showcase</h2>
+                <p>Explore my journey through projects, certifications, and technical expertise.</p>
+            </div>
+
+           
+            <div class="css-tabs">
+                <!-- Radio Buttons disembunyikan menggunakan CSS -->
+                <input type="radio" name="port-tabs" id="tab-education" checked>
+                <input type="radio" name="port-tabs" id="tab-projects">
+                <input type="radio" name="port-tabs" id="tab-certs">
+                <input type="radio" name="port-tabs" id="tab-tech">
+
+                
+                <div class="tab-container">
+                    <label for="tab-education" class="tab-btn">Education</label>
+                    <label for="tab-projects" class="tab-btn">Projects</label>
+                    <label for="tab-certs" class="tab-btn">Certificates</label>
+                    <label for="tab-tech" class="tab-btn">Tech Stack</label>
+                </div>
+
+                
+                <div class="tab-content" id="content-education">
+                    <div class="education-list">
+                        <article class="education-card">
+                            <div class="education-logo">
+                                <span class="education-logo-placeholder" aria-hidden="true">SMK TI<br>GLOBAL</span>
+                                <img class="education-logo-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlBj07WCK8F1NLdkk2HWKXhH0UmtJbq7IuzXAbXr5N2g&s=10" alt="Logo SMK TI Global Denpasar" hidden>
+                            </div>
+                            <div class="education-details">
+                                <span class="education-status">PENDIDIKAN MENENGAH KEJURUAN</span>
+                                <h3>SMK TI Global Denpasar</h3>
+                                <p class="education-program">Sekolah Menengah Kejuruan</p>
+                            </div>
+                        </article>
+                        <article class="education-card">
+                            <div class="education-logo">
+                                <span class="education-logo-placeholder" aria-hidden="true">UMM</span>
+                                <img class="education-logo-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3UF6IvKPeIfPDfEmGFFwnX1h198gJyPEjFs2MWrV0nQ&s=10" alt="Logo Universitas Muhammadiyah Malang" hidden>
+                            </div>
+                            <div class="education-details">
+                                <span class="education-status">SEDANG MENEMPUH PENDIDIKAN</span>
+                                <h3>Universitas Muhammadiyah Malang</h3>
+                                <p class="education-program">S1 Teknik Informatika</p>
+                                <p class="education-description">Mendalami informatika dengan fokus pada pengembangan backend dan pengelolaan basis data.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                
+                <div class="tab-content" id="content-projects">
+                    <div class="project-card">
+                        <div class="project-info">
+                            <span class="project-tag">Healthcare System / Java</span>
+                            <h3>Smart Hospital</h3>
+                            <p>Sistem rumah sakit terintegrasi untuk membantu pengelolaan informasi pasien dan layanan kesehatan secara efisien.</p>
+                        </div>
+                        <div class="project-image-box">
+                        <img src="WhatsApp Image 2026-10-08 at 20.29.45.jpeg" alt="Tampilan proyek Smart Hospital" class="project-smart-hospital-img">
+                      </div>
+                    </div>
+                    <div class="project-card" style="margin-top: 1.5rem;">
+                        <div class="project-info">
+                            <span class="project-tag">Database & System Design</span>
+                            <h3>Manajemen Kafe QR</h3>
+                            <p>Sistem pesanan berbasis nomor meja dan QR Code, dirancang dengan normalisasi database hingga tingkat 3NF.</p>
+                        </div>
+                        <div class="project-image-box">
+                            <img src="https://rehanamrllh.dev/assets/project4-ZSdkQLXn.png" alt="Tampilan sistem pemesanan mandiri Twice Cafe" class="project-cafe-img" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="project-card" style="margin-top: 1.5rem;">
+                        <div class="project-info">
+                            <span class="project-tag">Website / Pariwisata</span>
+                            <h3>Wisata Petik Jeruk</h3>
+                            <p>Website informasi wisata petik jeruk untuk memperkenalkan kebun, pengalaman berkunjung, dan daya tarik wisata kepada calon pengunjung.</p>
+                        </div>
+                        <div class="project-image-box project-petik-jeruk-box">
+                            <img src="WhatsApp Image 2026-10-08 at 23.41.00.jpeg" alt="Tampilan website wisata petik jeruk" class="project-petik-jeruk-img" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="tab-content" id="content-certs">
+                    <div class="cert-card">
+                        <div class="cert-img">📜 Sertifikat Praktikum OS Linux</div>
+                        <p class="cert-title">Universitas Muhammadiyah Malang</p>
+                    </div>
+                </div>
+
+                
+                <div class="tab-content" id="content-tech">
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <svg class="tech-icon java-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M17 8c5 4-5 5 2 10M25 5c6 5-6 7 1 11M31 10c4 4-4 5 1 8" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M12 24c0 4 24 4 24 0M14 28c1 3 19 3 20 0M16 32c2 2 14 2 16 0M18 36c2 2 10 2 12 0" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M10 22h28l-3 13c-1 4-21 4-22 0l-3-13Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                            <span>Java</span>
+                        </div>
+                        <div class="tech-item">
+                            <svg class="tech-icon mysql-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M7 27c4-8 12-11 20-8 4 1 6 5 10 5 2 0 4-1 5-3-1 6-5 9-11 8-4-1-7-3-11-2-4 1-7 5-11 5-3 0-5-2-5-5 0-2 1-4 3-6Z" fill="currentColor"/><path d="M26 18c3-5 7-7 12-7-3 2-4 4-5 7M16 27l-4 8m17-5 4 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="35" cy="21" r="1.2" fill="#111"/></svg>
+                            <span>SQL / MySQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <svg class="tech-icon api-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M17 12 7 24l10 12M31 12l10 12-10 12M27 8l-6 32" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <span>REST API</span>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <svg class="tech-icon database-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="10" rx="16" ry="6" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M8 10v27c0 3 7 6 16 6s16-3 16-6V10M8 23c0 3 7 6 16 6s16-3 16-6M8 34c0 3 7 6 16 6s16-3 16-6" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+                            <span>Database Design</span>
+                        </div>
+                        <div class="tech-item">
+                            <svg class="tech-icon linux-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 5c-8 0-10 8-10 17 0 3-4 7-5 12-1 4 2 6 5 4l5-4h10l5 4c3 2 6 0 5-4-1-5-5-9-5-12 0-9-2-17-10-17Z" fill="currentColor"/><ellipse cx="20" cy="17" rx="2" ry="3" fill="#111"/><ellipse cx="28" cy="17" rx="2" ry="3" fill="#111"/><path d="m21 23 3 3 3-3-3-2-3 2Zm-5 13-4 5m20-5 4 5" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/></svg>
+                            <span>Linux Admin</span>
+                        </div>
+                        <div class="tech-item">
+                            <svg class="tech-icon html-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="m7 4 3 35 14 5 14-5 3-35H7Z" fill="currentColor"/><path d="M15 13h18l-.5 5H20l.5 5h12l-1.5 12-7 2-7-2-.5-6h5l.3 2.5 2.2.6 2.2-.6.5-4.5H16l-1-14Z" fill="#111"/></svg>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <svg class="tech-icon css-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="m7 4 3 35 14 5 14-5 3-35H7Z" fill="currentColor"/><path d="M15 13h18l-.5 5H20l.3 4h12l-1.5 12-6.8 2-7-2-.5-6h5l.3 2.5 2.2.6 2.2-.6.5-4.5H16l-1-11Z" fill="#111"/></svg>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tech-item">
+                            <svg class="tech-icon github-icon" viewBox="0 0 48 48" aria-hidden="true"><path fill="currentColor" d="M24 4a20 20 0 0 0-6.3 39c1 .2 1.4-.4 1.4-1v-3.8c-5.7 1.2-6.9-2.4-6.9-2.4-.9-2.3-2.3-2.9-2.3-2.9-1.9-1.3.1-1.3.1-1.3 2.1.2 3.2 2.1 3.2 2.1 1.9 3.2 4.9 2.3 6.1 1.7.2-1.3.7-2.3 1.3-2.8-4.5-.5-9.2-2.3-9.2-10.1 0-2.2.8-4 2.1-5.5-.2-.5-.9-2.6.2-5.4 0 0 1.7-.6 5.5 2.1a19 19 0 0 1 10 0c3.8-2.7 5.5-2.1 5.5-2.1 1.1 2.8.4 4.9.2 5.4 1.3 1.5 2.1 3.3 2.1 5.5 0 7.8-4.7 9.6-9.2 10.1.7.6 1.4 1.8 1.4 3.6V42c0 .6.4 1.2 1.4 1A20 20 0 0 0 24 4Z"/></svg>
+                            <span>Git / GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="section contact">
+        <div class="container contact-grid">
+            
+            <div class="contact-box">
+                <h2>Hubungi Saya</h2>
+                <p class="sub-text">Feel free to reach out if you want to collaborate, discuss ideas, or simply say hello.</p>
+                <form class="contact-form">
+                    <div class="input-group">
+                        <label>Your Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Your Email</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Your Message</label>
+                        <textarea rows="4" required></textarea>
+                    </div>
+                    <!-- Menggunakan type="button" agar halaman tidak ter-refresh saat diklik -->
+                    <button type="button" class="btn btn-secondary w-full">✉ Send Message</button>
+                </form>
+
+                <div class="socials">
+                    <p>Connect With Me</p>
+                    <div class="social-grid">
+                        <a class="btn-social" href="https://www.linkedin.com/in/username/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.34 18.34H4.67V9.75h2.67v8.59ZM6 8.58a1.55 1.55 0 1 1 0-3.1 1.55 1.55 0 0 1 0 3.1Zm12.34 9.76h-2.67v-4.18c0-1-.02-2.28-1.39-2.28-1.39 0-1.6 1.08-1.6 2.2v4.26h-2.66V9.75h2.56v1.17h.04c.36-.67 1.23-1.38 2.53-1.38 2.7 0 3.2 1.78 3.2 4.09v4.71Z"/></svg>
+                        </a>
+                        <a class="btn-social" href="https://www.instagram.com/zalb3hl?stkn=MTYxdWRrYnA2cTF5ag%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2.2A2.8 2.8 0 0 0 4.2 7v10A2.8 2.8 0 0 0 7 19.8h10a2.8 2.8 0 0 0 2.8-2.8V7A2.8 2.8 0 0 0 17 4.2H7Zm5 2.3a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm0 2.2a3.3 3.3 0 1 0 0 6.6 3.3 3.3 0 0 0 0-6.6Zm5.75-3.15a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6Z"/></svg>
+                        </a>
+                        <a class="btn-social" href="https://github.com/rizalalsyahril" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 1.7 2.62 1.21 3.26.92.1-.72.39-1.21.71-1.49-2.47-.28-5.07-1.24-5.07-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.06 1.15a10.64 10.64 0 0 1 5.57 0c2.12-1.45 3.06-1.15 3.06-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.6 5.23-5.08 5.51.4.35.76 1.03.76 2.08v3.07c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+                        </a>
+                        <a class="btn-social" href="https://www.youtube.com/@username" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.12C19.55 3.57 12 3.57 12 3.57s-7.55 0-9.4.51A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.12c1.85.51 9.4.51 9.4.51s7.55 0 9.4-.51a3 3 0 0 0 2.1-2.12A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8ZM9.55 15.57V8.43L15.82 12l-6.27 3.57Z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <h2>Comments</h2>
+                <p class="sub-text">Leave your thoughts here</p>
+                <form class="comment-form">
+                    <div class="input-group">
+                        <label>Your Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Your Comment</label>
+                        <textarea rows="3" required></textarea>
+                    </div>
+                    <div class="comment-actions">
+                        <label class="upload-img" title="Klik untuk memilih gambar">
+                            <svg class="upload-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0L7 9m5-5 5 5M5 14v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5"/></svg>
+                            <span>Pilih gambar</span>
+                            <input class="visually-hidden" type="file" id="comment-image" name="comment-image" accept="image/png,image/jpeg,image/webp,image/gif">
+                        </label>
+                        <button type="button" class="btn btn-primary">Post Comment</button>
+                    </div>
+                    <p class="upload-status" id="upload-status" role="status" aria-live="polite"></p>
+                    <div class="image-upload-preview" id="image-upload-preview" hidden>
+                        <img id="image-preview" alt="Preview gambar yang dipilih">
+                        <div class="image-preview-details">
+                            <span id="image-file-name"></span>
+                            <button type="button" id="remove-image" class="remove-image">Hapus gambar</button>
+                        </div>
+                    </div>
+                </form>
+
+                
+                    <div class="comment-item pinned">
+                        <div class="c-head">
+                            <strong>Rizal Al Syahril</strong>
+                            <span class="badge-pin">📌 PINNED</span>
+                        </div>
+                        <p>Terima kasih sudah berkunjung ke portofolio saya! Tinggalkan pesan jika ada pertanyaan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll(".education-logo-image").forEach((logo) => {
+            const placeholder = logo.previousElementSibling;
+            const showLogo = () => {
+                logo.hidden = false;
+                placeholder.hidden = true;
+            };
+            const showPlaceholder = () => {
+                logo.hidden = true;
+                placeholder.hidden = false;
+            };
+
+            logo.addEventListener("load", showLogo);
+            logo.addEventListener("error", showPlaceholder);
+
+            if (logo.complete && logo.naturalWidth > 0) {
+                showLogo();
+            }
+        });
+
+        const imageInput = document.querySelector("#comment-image");
+        const imagePreview = document.querySelector("#image-preview");
+        const imagePreviewContainer = document.querySelector("#image-upload-preview");
+        const imageFileName = document.querySelector("#image-file-name");
+        const uploadStatus = document.querySelector("#upload-status");
+        const removeImageButton = document.querySelector("#remove-image");
+        let previewUrl = null;
+        imageInput.addEventListener("change", () => {
+            const file = imageInput.files[0];
+            uploadStatus.textContent = "";
+
+            if (!file) {
+                return;
+            }
+
+            if (!file.type.startsWith("image/")) {
+                imageInput.value = "";
+                uploadStatus.textContent = "Pilih file gambar yang valid.";
+                return;
+            }
+
+            if (previewUrl) {
+                URL.revokeObjectURL(previewUrl);
+            }
+
+            previewUrl = URL.createObjectURL(file);
+            imagePreview.src = previewUrl;
+            imageFileName.textContent = file.name;
+            imagePreviewContainer.hidden = false;
+            uploadStatus.textContent = "Gambar berhasil dipilih.";
+        });
+
+        removeImageButton.addEventListener("click", () => {
+            imageInput.value = "";
+            imagePreview.removeAttribute("src");
+            imagePreviewContainer.hidden = true;
+            imageFileName.textContent = "";
+            uploadStatus.textContent = "Gambar dihapus.";
+
+            if (previewUrl) {
+                URL.revokeObjectURL(previewUrl);
+                previewUrl = null;
+            }
+        });
+    </script>
+</body>
+</html>
